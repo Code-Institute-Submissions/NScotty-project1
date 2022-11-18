@@ -9,4 +9,34 @@
 body{
     font-family: Lato,sans-serif;
     font-weight: 300;
+    color: 3a 3a 3a;
+}
+
+/*navigation link 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+    text-decoration: none;
+    font-family: Oswald;
+    font-size: 110%;
+    color: black;
+    
 }
