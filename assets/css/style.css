@@ -128,3 +128,29 @@ h1.h2{
 
     position:absolute
 }
+
+footer {
+    height: 150px;
+
+}
+
+.social-networks {
+   text-align: center;
+   /* display:flex;
+    justify-content: space-evenly;
+    align-items:center;*/
+
+}
+
+.social-networks > li {
+    display: inline; 
+    
+}
+
+
+ .social-networks i {
+    font-size: 240%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
