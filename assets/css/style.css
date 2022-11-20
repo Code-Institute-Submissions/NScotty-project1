@@ -6,12 +6,25 @@
     border: none;
 }
 
-body{
-    font-family: Lato,sans-serif;
+body {
+    font-family: Lato, sans-serif;
     font-weight: 300;
-    color: 3a 3a 3a;
+    color: #3a3a3a;
 }
 
+h1.h2{
+    font-family: Oswald,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    font-size: 280%;
+    padding: 0%;
+    margin-left: 10px;
+    
+}
 /*navigation link 
 #menu {
     font-size: 110%;
@@ -34,21 +47,81 @@ body{
 .nav-item {
     list-style-type: none;
     margin-right: 2rem;
-    
+
     font-family: Oswald;
-    font-size: 110%;
+    font-size: 150%;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid black;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text, h2 {
+
+    color:rgb(21, 22, 22);
+
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('/images/hero-imageproject1.jpg') no-repeat;
+    background-size: cover;
+    background-position: 25% 25%;
+    
+
+
+    /* animates zoom effect on loading the page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode:backwards;
+
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
     }
 
-    .nav-item a {
-        text-decoration: none;
-        color: inherit;
+    to {
+        transform: scale(1.1);
     }
+}
 
-    .navbar a:hover {
-        border-bottom: 1px solid black;
-    }
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
 
-    .active {
-        border-bottom: 1px solid black;
-    }
+    width:300px;
+    height: 200px;
 
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(252, 255, 254, 0.73);
+
+    bottom: 300px;
+    right: 200px;
+
+    position:absolute
+}
