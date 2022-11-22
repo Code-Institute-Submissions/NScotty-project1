@@ -12,17 +12,15 @@ body {
     color: #3a3a3a;
 }
 
-h1{
+h1,h2 {
     font-family: Oswald,sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
 
-h2 {
 
-    font-family: Lato, sans-serif;
-}
+
 
 #logo {
     font-size: 100%;
@@ -51,16 +49,19 @@ h2 {
     background-color: #B58E7D;
 }
 
+.navbar #logo{
 
-.nav-item {
+    line-height: 75px;
+}
+
+.navbar li {
     list-style-type: none;
     margin-right: 2rem;
-
     font-family: Oswald;
     font-size: 75%;
 }
 
-.nav-item a {
+.navbar a {
     text-decoration: none;
     color: inherit;
 }
@@ -69,10 +70,10 @@ h2 {
     margin-left: 2rem;
  }
 .navbar a:hover {
-    border-bottom: 2px solid blue
+    border-bottom: 2px solid #2176AE;
 }
 
-.active {
+/*.active {
     border-bottom: 1px solid black;
 }
 
@@ -96,7 +97,7 @@ h2 {
     width: 100%;
     background: url('/images/hero-imageproject1.jpg') no-repeat;
     background-size: cover;
-    background-position: 40% 100%;
+    background-position: 20% 45%;
     
 
 
@@ -123,26 +124,22 @@ h2 {
     font-size: 50%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-
-    width: 300px:px;
+    width: 100px;
     height: 200px;
-
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
-
     background-color: rgba(252, 255, 254, 0.63);
-
     bottom: 200px;
     right: 200px;
-
-    margin-left: 10px;
-
-    position:absolute
+    margin-left: 20px;
+    position: absolute;
 }
+
+
 
 footer {
     height: 150px;
-    background-color: rgba(181, 142, 125, .09);
+    background-color: #CCD5FF;
 
 }
 
@@ -212,23 +209,65 @@ footer {
         column-count: 3;
     }
 } */
+@media screen and (min-width:337px) {
 
-@media screen and (max-width:414px) {
+    .nav-item {
+        list-style-type: none;
+        margin-right: 2rem;
+    
+        font-family: Oswald;
+        font-size: 75%;
+    }
+    .social-networks i {
+        font-size: 75%;
+        margin: 1%;
+        padding: 5%;
+        color: #3a3a3a;
+    }
 
+    #cover-text {
+        font-size: 50%;
+        font-family: Oswald, sans-serif;
+        text-transform: uppercase;
+        width: 100px;
+        height: 100px;
+        padding-top: 20px;
+        padding-left: 10px;
+        background-color: rgba(252, 255, 254, 0.63);
+        bottom: 300px;
+        right: 200px;
+        margin-left: 20px;
+        position: absolute;
+    }
+}
 
+@media screen and (min-width: 557) {
+
+    .nav-item {
+        list-style-type: none;
+        margin-right: 2rem;
+    
+        font-family: Oswald;
+        font-size: 100%;
+    }
+    .social-networks i {
+        font-size: 100%;
+        margin: 1%;
+        padding: 5%;
+        color: #3a3a3a;
+    }
     #cover-text {
         font-size: 75%;
         font-family: Oswald, sans-serif;
         text-transform: uppercase;
-        width: 200px:px;
-        height: 200px;
+        width: 200px;
+        height: 150px;
         padding-top: 20px;
         padding-left: 10px;
         background-color: rgba(252, 255, 254, 0.63);
-        bottom: 200px;
-        right: 200px;
-        margin-left: 10px;
+        bottom: 300px;
+        margin-left: 20px;
         position: absolute;
     }
-    
 } 
+    
