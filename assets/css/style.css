@@ -25,7 +25,7 @@ h2 {
 }
 
 #logo {
-    font-size: 1rem%;
+    font-size: 1rem;
     color: #2176AE;
 
 }
@@ -61,7 +61,7 @@ h2 {
     list-style-type: none;
     margin-right: 2rem;
     font-family: Oswald;
-    font-size: 1rem%;
+    font-size: .75rem;
 }
 
 .navbar a {
@@ -94,6 +94,7 @@ h2 {
 #cover-text,
 #cover-text,
 h2 {
+    font-size: .75rem;
 
     color: rgb(21, 22, 22);
 
@@ -102,7 +103,8 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('/images/hero-imageproject1.jpg') no-repeat;
+
+    background: url('../../images/hero-imageproject1.jpg') no-repeat center center;
     background-size: cover;
     background-position: 20% 45%;
 
@@ -128,7 +130,7 @@ h2 {
 
 
 #cover-text {
-    font-size: 2rem;
+    font-size: 50%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     max-width: 200px;
@@ -165,7 +167,7 @@ footer {
 
 
 .social-networks i {
- font-size: 4rem;
+    font-size: 1rem;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
@@ -252,9 +254,9 @@ footer {
     #logo {
         font-size: 150%;
         color: #2176AE;
-}
+    }
 
-/*@media screen and (min-width: 557) and (max-width:959px){
+    /*@media screen and (min-width: 557) and (max-width:959px){
 
     .nav-item {
         list-style-type: none;
@@ -290,52 +292,53 @@ footer {
 
 h2 {
     text-align: center;
-    vertical-align:middle;
-    font-family: Oswald,sans-serif;
+    vertical-align: middle;
+    font-family: Oswald, sans-serif;
     border: 1px;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    
+
 }
 
 #about-me-container {
-    background: whitesmoke ;
-    width:70%;
-    margin:0 auto;
+    background: whitesmoke;
+    width: 70%;
+    margin: 0 auto;
     max-width: 1000px;
 
 }
 
 #photo-container {
-    width: 200px;
+    width: 300px;
     height: 300px;
-    padding: 40px;
+    padding: 30px;
     border: 1px solid #ccc;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
-    
+
 }
 
 #photo-container-bg {
 
     background: url('../../images/aboutme.jpg') no-repeat center center;
-    height :100%;
+    height: 300px;
     border-radius: 50%;
-    
+    background-position: 70% 35%;
+
 }
-    
+
 
 p {
 
     font-family: Lato;
     min-height: fit-content;
     max-width: fit-content;
-    border:5px solid #B58E7D;
+    border: 5px solid #B58E7D;
     border-radius: 2rem;
     border-style: outset;
     padding: 1rem;
     margin: 2rem;
-    
+
 
 }
