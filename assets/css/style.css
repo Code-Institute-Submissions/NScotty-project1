@@ -95,7 +95,6 @@ h2 {
 #cover-text,
 h2 {
     font-size: .75rem;
-
     color: rgb(21, 22, 22);
 
 }
@@ -130,24 +129,26 @@ h2 {
 
 
 #cover-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 50%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    max-width: 200px;
-    min-height: 100px;
-    padding-top: 20px;
-    padding-left: 10px;
+    max-width: 300px;
+    min-height: 50px;
     background-color: rgba(252, 255, 254, 0.63);
     bottom: 200px;
     right: 200px;
-    margin-left: 20px;
+    margin-left: 10px;
     position: absolute;
+
 }
 
 
 
 footer {
-    height: 150px;
+    height: 100px;
     background-color: #CCD5FF;
 
 }
@@ -290,7 +291,7 @@ footer {
 
 /*h2 styling for About Me Page */
 
-h2 {
+#about-me-heading {
     text-align: center;
     vertical-align: middle;
     font-family: Oswald, sans-serif;
@@ -300,15 +301,105 @@ h2 {
 
 }
 
-#about-me-container {
-    background: whitesmoke;
-    width: 70%;
-    margin: 0 auto;
-    max-width: 1000px;
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 
 }
 
-#photo-container {
+.about-me-boxes {
+
+    width: 80%;
+    margin: 10px;
+    border:
+}
+
+.about-me-image {
+    border:red solid 2px;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    width:80%;
+    background: url('../../images/carolineprofilepic2.jpg') no-repeat;
+    background-position: 30% 40%;
+    padding: 10px;
+
+
+}
+
+
+.about-me-text {
+
+    min-height: 300px;
+    overflow: auto;
+    padding: 20px;
+    border: #2176AE solid 2px
+        /* background-color: #ccc;
+    max-width: 70%;
+    margin-left: 10px;*/
+}
+
+.my-approach-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.my-approach-boxes {
+
+    width: 50%;
+    margin: 10px;
+    border:
+}
+
+.my-approach-image {
+
+    min-height: 200px;
+    background-color: yellowgreen;
+    background: url('../../images/carolineprofilepic1.jpg') no-repeat center center;
+    background-position: 30% 40%;
+    padding: 10px;
+
+
+}
+
+
+.my-approach-text {
+
+    min-height: 300px;
+    overflow: auto;
+    padding: 20px;
+    border: #2176AE solid 2px
+        /* background-color: #ccc;
+    max-width: 70%;
+    margin-left: 10px;*/
+}
+
+
+
+
+/*@media screen and (min-width:500px) {
+    .about-me-container {
+        flex-direction: row;
+    } 
+    .my-approach-container {
+        flex-direction: row;
+    }
+    .about-me-image {
+        flex-direction: row;
+    }
+    .about-me-boxes {
+        flex-direction: row;
+    }
+
+   
+}
+*/
+/*#photo-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -321,15 +412,15 @@ h2 {
 
 #photo-container-bg {
 
-    background: url('../../images/aboutme.jpg') no-repeat center center;
+    background: url('../../images/carolineppic1.jpg') no-repeat center center;
     height: 300px;
     border-radius: 50%;
-    background-position: 70% 35%;
+    background-position: 50% 35%; 
 
 }
 
 
-p {
+/*p {
 
     font-family: Lato;
     min-height: fit-content;
@@ -338,7 +429,20 @@ p {
     border-radius: 2rem;
     border-style: outset;
     padding: 1rem;
-    margin: 2rem;
+    margin: 2rem;*/
 
 
+}
+
+#ikshana-logo {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    url ('../../images/logo.png')
+}
+
+img {
+
+    max-width: 100%;
+    max-height: 100%;
 }
