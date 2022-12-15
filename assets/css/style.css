@@ -257,6 +257,54 @@ footer {
         color: #2176AE;
     }
 
+    .main {
+        background-color: #CCD5FF;
+        padding: 100px 0;
+    }
+
+    .container{
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+.aboutme__img  {
+    width:45%;
+ }
+
+    .aboutme__img >img {
+        object-fit: cover;
+        width: 100%;
+        flex-grow: 0;
+        flex-shrink: 1;
+    
+    }
+    
+    
+
+    .aboutme__txt {
+        width:55%;
+        color:#252525;
+        font-size: 1.5 rem;
+        font-weight: 500;
+        padding:0% 2em;
+        background-color: white;
+       
+    }
+
+    .aboutme__title {
+
+        font-size: 2rem;
+        text-align: center;
+        color: #2176AE;
+        margin-bottom:1em;
+        margin-top: 0%;
+    }
     /*@media screen and (min-width: 557) and (max-width:959px){
 
     .nav-item {
@@ -291,7 +339,7 @@ footer {
 
 /*h2 styling for About Me Page */
 
-#about-me-heading {
+/*#about-me-heading {
     text-align: center;
     vertical-align: middle;
     font-family: Oswald, sans-serif;
@@ -330,7 +378,8 @@ footer {
 }
 
 
-.about-me-text {
+
+/*.about-me-text {
 
     min-height: 300px;
     overflow: auto;
@@ -339,9 +388,9 @@ footer {
         /* background-color: #ccc;
     max-width: 70%;
     margin-left: 10px;*/
-}
+/*}
 
-.my-approach-container {
+/*.my-approach-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -377,7 +426,7 @@ footer {
         /* background-color: #ccc;
     max-width: 70%;
     margin-left: 10px;*/
-}
+/*}
 
 
 
@@ -432,7 +481,7 @@ footer {
     margin: 2rem;*/
 
 
-}
+/*}/*
 
 #ikshana-logo {
     position: absolute;
@@ -445,4 +494,4 @@ img {
 
     max-width: 100%;
     max-height: 100%;
-}
+}*/
