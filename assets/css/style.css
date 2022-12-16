@@ -24,63 +24,66 @@ h2 {
     color: #252525;
 }
 
-#logo {
+/*#logo {
     font-size: 1rem;
-    color: #2176AE;
+    color: #2176AE;*/
 
+
+header {
+    background:#B58E7D;
+    padding: .5em 0;
 }
-
-/*navigation link 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-} */
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #B58E7D;
-}
-
-.navbar #logo {
-
-    line-height: 75px;
-}
-
-.navbar li {
-    list-style-type: none;
-    margin-right: 2rem;
-    font-family: Oswald;
-    font-size: .75rem;
-}
-
-.navbar a {
+ .logo {
     text-decoration: none;
-    color: inherit;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px #252525;
+    color: #2176AE;
+    font-weight:bold;
+    margin-right: 1em;
 }
+.nav{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+  }
+  .nav__list {
+     display:flex;
+     align-items: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
 
-.nav-item:first-child {
-    margin-right: auto;
-    margin-left: 2rem;
-}
+  .nav__list--primary {
+    margin: 0 auto;
+  }
+  
+  .nav__item{
+    margin-right:1em;
+  }
+  
+  .nav__item + .nav__item {
+   margin-left: 1em;
+  }
+  
+  .nav__link {
+      color:#2176AE;
+      text-decoration: none;
+      text-transform: uppercase;
+  
+  }
+  
+  .nav__link--button {
+      background: #fff;
+      color: #136c72;
+      padding: .25em 1em;
+      border-radius: 10em;
+  }
+  
+  .nav__link:hover {
+      opacity: .75;
 
-.navbar a:hover {
-    border-bottom: 2px solid #2176AE;
-}
-
-*.active {
-    border-bottom: 1px solid #2176AE;
-}
+  }
 
 /* hero image */
 
@@ -129,7 +132,7 @@ h2 {
 
 
 #cover-text {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 50%;
@@ -148,7 +151,6 @@ h2 {
 
 
 footer {
-    height: 100px;
     background-color: #CCD5FF;
 
 }
@@ -175,51 +177,6 @@ footer {
 }
 
 
-/* For medium screen sizes from 950px wide and down */
-
-/*@media screen and (max-width: 950px){
-    .navbar {
-
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-top: 20px;
-        line-height: 25px;
-    } 
-
-    #cover-text {
-        left: 0;
-    }
-
-  /*  #club-ethos {
-        width:90%;
-        height: 1200px;
-        margin: 0 auto;
-
-    }
-
-    .left-about-heading, .right-about-heading {
-        width: inherit;
-
-    }
-
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p {
-
-        text-align: center;
-        padding: 0 20px;
-
-    }
-
-    #photos {
-        column-count: 3;
-    }
-} */
-@media screen and (min-width:400px) {
 
     .nav-item {
         list-style-type: none;
@@ -230,7 +187,7 @@ footer {
     }
 
     .social-networks i {
-        font-size: 100%;
+        font-size: 1.5rem;
         margin: 1%;
         padding: 5%;
         color: #3a3a3a;
@@ -257,44 +214,57 @@ footer {
         color: #2176AE;
     }
 
-    .main {
+    .main__aboutme {
         background-color: #CCD5FF;
         padding: 100px 0;
+        border: solid 5px #2176AE;
     }
 
-    .container{
+    .main__myapproach {
+        background-color: #252525;
+        padding: 100px 0;
+
+    }
+
+    .container {
         width: 90%;
         max-width: 1200px;
         margin: 0 auto;
     }
+
     .row {
         display: flex;
         justify-content: space-between;
     }
 
+    .row2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
 
-.aboutme__img  {
-    width:45%;
- }
 
-    .aboutme__img >img {
+
+    .aboutme__img {
+        width: 45%;
+    }
+
+    .aboutme__img>img {
         object-fit: cover;
         width: 100%;
-        flex-grow: 0;
-        flex-shrink: 1;
-    
+
     }
-    
-    
+
+
 
     .aboutme__txt {
-        width:55%;
-        color:#252525;
+        width: 55%;
+        color: #252525;
         font-size: 1.5 rem;
         font-weight: 500;
-        padding:0% 2em;
+        padding: 0% 2em;
         background-color: white;
-       
+
     }
 
     .aboutme__title {
@@ -302,196 +272,19 @@ footer {
         font-size: 2rem;
         text-align: center;
         color: #2176AE;
-        margin-bottom:1em;
+        margin-bottom: 1em;
         margin-top: 0%;
     }
-    /*@media screen and (min-width: 557) and (max-width:959px){
-
-    .nav-item {
-        list-style-type: none;
-        margin-right: 2rem;
-
-        font-family: Oswald;
-        font-size: 100%;
+@media (max-width: 1250px) {
+     .row
+      {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
-    .social-networks i {
-        font-size: 100%;
-        margin: 1%;
-        padding: 5%;
-        color: #3a3a3a;
+    .row2
+    {
+        display: flex;
+        flex-direction: column-reverse;
     }
-
-    #cover-text {
-        font-size: 3rem;
-        font-family: Oswald, sans-serif;
-        text-transform: uppercase;
-        width: 200px;
-        height: 150px;
-        padding-top: 20px;
-        padding-left: 10px;
-        background-color: rgba(252, 255, 254, 0.63);
-        bottom: 300px;
-        margin-left: 20px;
-        position: absolute;
-    } */
 }
-
-/*h2 styling for About Me Page */
-
-/*#about-me-heading {
-    text-align: center;
-    vertical-align: middle;
-    font-family: Oswald, sans-serif;
-    border: 1px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-
-}
-
-.about-me-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
-}
-
-.about-me-boxes {
-
-    width: 80%;
-    margin: 10px;
-    border:
-}
-
-.about-me-image {
-    border:red solid 2px;
-    justify-content: center;
-    align-items: center;
-    min-height: 200px;
-    width:80%;
-    background: url('../../images/carolineprofilepic2.jpg') no-repeat;
-    background-position: 30% 40%;
-    padding: 10px;
-
-
-}
-
-
-
-/*.about-me-text {
-
-    min-height: 300px;
-    overflow: auto;
-    padding: 20px;
-    border: #2176AE solid 2px
-        /* background-color: #ccc;
-    max-width: 70%;
-    margin-left: 10px;*/
-/*}
-
-/*.my-approach-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
-}
-
-.my-approach-boxes {
-
-    width: 50%;
-    margin: 10px;
-    border:
-}
-
-.my-approach-image {
-
-    min-height: 200px;
-    background-color: yellowgreen;
-    background: url('../../images/carolineprofilepic1.jpg') no-repeat center center;
-    background-position: 30% 40%;
-    padding: 10px;
-
-
-}
-
-
-.my-approach-text {
-
-    min-height: 300px;
-    overflow: auto;
-    padding: 20px;
-    border: #2176AE solid 2px
-        /* background-color: #ccc;
-    max-width: 70%;
-    margin-left: 10px;*/
-/*}
-
-
-
-
-/*@media screen and (min-width:500px) {
-    .about-me-container {
-        flex-direction: row;
-    } 
-    .my-approach-container {
-        flex-direction: row;
-    }
-    .about-me-image {
-        flex-direction: row;
-    }
-    .about-me-boxes {
-        flex-direction: row;
-    }
-
-   
-}
-*/
-/*#photo-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border: 1px solid #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-
-}
-
-#photo-container-bg {
-
-    background: url('../../images/carolineppic1.jpg') no-repeat center center;
-    height: 300px;
-    border-radius: 50%;
-    background-position: 50% 35%; 
-
-}
-
-
-/*p {
-
-    font-family: Lato;
-    min-height: fit-content;
-    max-width: fit-content;
-    border: 5px solid #B58E7D;
-    border-radius: 2rem;
-    border-style: outset;
-    padding: 1rem;
-    margin: 2rem;*/
-
-
-/*}/*
-
-#ikshana-logo {
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 10px;
-    url ('../../images/logo.png')
-}
-
-img {
-
-    max-width: 100%;
-    max-height: 100%;
-}*/
