@@ -16,13 +16,16 @@ header {
     max-height: 150%;
 }
 
-h1,
-h2 {
+h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
+
+h2 { font-family: Lato, sans-serif;
+     color:rgb(21, 22, 22);
+     }
 
 /*#logo {
     font-size: 1rem;
@@ -41,10 +44,10 @@ header {
     font-weight:bold;
     margin-right: 1em;
 }
-.nav{
+.nav {
     display:flex;
     justify-content:space-between;
-    width:100%;
+    
   }
   .nav__list {
      display:flex;
@@ -52,30 +55,30 @@ header {
       margin: 0;
       padding: 0;
       list-style: none;
+      border: solid 2px red;
+
   }
 
-  .nav__list--primary {
-    margin: 0 auto;
-  }
   
   .nav__item{
     margin-right:1em;
   }
   
-  .nav__item + .nav__item {
+  /*.nav__item + .nav__item {
    margin-left: 1em;
-  }
+  }*/
   
   .nav__link {
       color:#2176AE;
       text-decoration: none;
       text-transform: uppercase;
+      font-weight: bold;
   
   }
   
   .nav__link--button {
       background: #fff;
-      color: #136c72;
+      color: #2176AE;
       padding: .25em 1em;
       border-radius: 10em;
   }
@@ -94,13 +97,13 @@ header {
     position: relative;
 }
 
-#cover-text,
+/*#cover-text,
 #cover-text,
 h2 {
     font-size: .75rem;
     color: rgb(21, 22, 22);
 
-}
+}*/
 
 #hero-image {
     height: 600px;
@@ -131,24 +134,25 @@ h2 {
 }
 
 
-#cover-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 50%;
+/*#cover-text {
+    
+    font-size: 1.5rem;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    max-width: 300px;
-    min-height: 50px;
+    max-width: 30%;
     background-color: rgba(252, 255, 254, 0.63);
-    bottom: 200px;
-    right: 200px;
-    margin-left: 10px;
-    position: absolute;
+    position:fixed;
 
+}*/
+
+#cover-text {
+
+    padding: 5px 30px 5px 10px;
+  background-color: hsla(0, 0%, 100%, 0.642);
+  max-width: 60%;
+  align-self: flex-end;
+  z-index: 5;
 }
-
-
 
 footer {
     background-color: #CCD5FF;
@@ -176,15 +180,6 @@ footer {
     color: #3a3a3a;
 }
 
-
-
-    .nav-item {
-        list-style-type: none;
-        margin-right: 2rem;
-
-        font-family: Oswald;
-        font-size: 100%;
-    }
 
     .social-networks i {
         font-size: 1.5rem;
@@ -287,4 +282,5 @@ footer {
         display: flex;
         flex-direction: column-reverse;
     }
-}
+    
+}   
