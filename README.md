@@ -21,3 +21,10 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
  <p align= "center">
 <img src="https://user-images.githubusercontent.com/116117302/210173427-06fe660b-ac9f-42ce-98b4-5e9cf02e0e08.PNG">
 </P>
+
+* About Me page
+  * The about me page talks about Carolines background and her journey to becoming a life coach. it features a picture of Caroline and a description of who she is 
+  * A **read more** link was introduced on this page as there is a lot of text and this method allows the user to read more or less as they wish.
+  
+![aboutme](https://user-images.githubusercontent.com/116117302/210176582-8afeb279-5c1c-429f-8d6f-d9082c7b17ca.PNG)
+![aboutme less](https://user-images.githubusercontent.com/116117302/210176586-69a4d039-c2b1-45ce-9736-29c1ffcce5cd.PNG)
