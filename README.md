@@ -28,3 +28,15 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
   
 ![aboutme](https://user-images.githubusercontent.com/116117302/210176582-8afeb279-5c1c-429f-8d6f-d9082c7b17ca.PNG)
 ![aboutme less](https://user-images.githubusercontent.com/116117302/210176586-69a4d039-c2b1-45ce-9736-29c1ffcce5cd.PNG)
+
+* Work With Me page
+  * This page is designed to make it easy for the user to get in touch. On smaller screens the contact form takes the wisth of the page whereas on larger screens flex was used to stack the contact me section alongside the form.
+  * The form is fully validated and the user must enter the correct details for the form.
+  
+  <p float= "left">
+ <img height="277" width="235" src="https://user-images.githubusercontent.com/116117302/210178144-836b48e9-01e9-41bb-a636-b1338de216a9.PNG"/>
+ <img height="277" width="235" src="https://user-images.githubusercontent.com/116117302/210177993-d3344c97-5ce5-4ae1-be1f-f6398287c27e.PNG"/>
+ <img  height="277" width="235"src="https://user-images.githubusercontent.com/116117302/210177995-14e0a27f-1a54-44ac-b9a5-f06a2dc26332.PNG"/>
+</p>
+
+
