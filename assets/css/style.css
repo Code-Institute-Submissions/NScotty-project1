@@ -208,7 +208,7 @@ header {
     width:38%;
     text-align:center;
   }
-  .third__section__image {
+  .aboutme__section__image {
         width: 80%;
     margin-top:3.5em;
     }
@@ -305,7 +305,7 @@ header {
 
 
 
-.third{
+.aboutme{
   color: black;
   background-color: #8DB580;
  }
@@ -319,29 +319,87 @@ h1,h2 {
 
 
 
-.third__section__text {
+.aboutme__section__text {
   width:100%;
   padding:1em;
   margin-bottom:.5em;
 }
+/* code for adding read more label */
 
-.third__section__image {
+#check{
+  display:none;
+}
+
+#checkapproach {
+  display: none;
+}
+
+.content{
+  display:none;
+  transition: 0.5s linear;
+}
+
+.content_myapproach{
+  display: none;
+  transition: 0.5s linear;
+}
+
+label{
+  display: inline-block;
+  margin-top: 15px;
+  color: antiquewhite;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#check:checked ~ .content{
+  display:block;
+}
+#checkapproach:checked ~ .content_myapproach
+{
+  display: block;
+}
+
+
+#check:checked ~ label{
+  visibility: hidden;
+}
+#checkapproach:checked ~ label{
+  visibility: hidden;
+}
+
+
+#check:checked ~ label::after{
+  content:'Show Less';
+  display: block;
+  visibility: visible;
+}
+#checkapproach:checked ~ label::after{
+  content:'Show Less';
+  display: block;
+  visibility: visible;
+}
+
+.aboutme__section__image {
   width:100%;
   margin-top:2em;
   padding-bottom:1em;
   
 }
 
-.third__section__title {
+.aboutme__section__title {
  margin-top:1em;
    
   }
 
 
-.fourth {
+.myapproach {
   background-color:#4B4A67;
   color:white;
 }
+
+
 
 /* Form */
    
