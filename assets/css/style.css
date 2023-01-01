@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -6,8 +6,8 @@
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /*img {
@@ -52,6 +52,7 @@ header {
     background: #8DB580;
     padding: 1em 0;
     text-align: center;
+    font-family: 'Forum', cursive;;
 }
 
 .nav {
@@ -167,6 +168,7 @@ header {
   list-style:none;
     margin:0;
     padding:0;
+    font-size: 1.5rem;
     
   }
   
@@ -222,11 +224,12 @@ header {
 
 
 .logo {
-  font-family: 'Playfair Display', sans serif;
-  font-weight: 300;
+  font-family: 'Yeon Sung', cursive;
+  letter-spacing: 3px;
+  font-weight: 400;
   align-items:center;
   font-size:2rem;
-  height: 3rem;
+  height: 4rem;
   color:#fff;
   text-decoration:none;
 }
@@ -274,9 +277,22 @@ header {
     }
 }
 
+@media (min-width:800px) {
+  #hero-image {
+    height: 600px;
+    width: 100%;
+
+    background: url('/images/hero-imageproject1.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: 10% 30%;
+
+}
+
+}
+
 #cover-text{
   font-size: 1rem;
-  font-family: Roboto, sans-serif;
+  font-family: Forum, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   
@@ -316,8 +332,10 @@ header {
 
 
 h1,h2 {
+  font-family:'Forum',cursive;
   margin-top: 0;
   font-weight:900;
+  letter-spacing: 3px;
 }
 
 
@@ -325,7 +343,11 @@ h1,h2 {
 .aboutme__section__text {
   width:100%;
   padding:1em;
-  margin-bottom:.5em;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.aboutme__section__text p {
+  text-align:justify;
 }
 /* code for adding read more label */
 
@@ -414,6 +436,7 @@ label{
 }
 
            input, label, button{
+            font-family: 'Forum',cursive;
             padding: 0.2rem 1rem;
             font-size: 1.2rem;
             text-transform:uppercase;
@@ -485,8 +508,32 @@ label{
   padding:1rem;
 }
 
+.contact__title {
+font-family: 'Forum'cursive;
+font-weight: 500 bold;
+letter-spacing: 4px;
+border-bottom: #072A2D 1px ;
+
+}
+
+.sidebar-title {
+
+  font-family: 'Forum' cursive;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+ .sidebar p{
+  border: solid 1px red;
+  font-family: 'Work Sans', sans-serif;
+  font-style: italic;
+ }
+
+ 
+
 .sidebar i{
   padding:.5rem;
+  font-weight: bolder;
+  
 }
 
 /*footer*/
