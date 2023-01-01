@@ -211,7 +211,7 @@ header {
   }
   .aboutme__section__image {
         width: 80%;
-    margin-top:3.5em;
+    ;
     }
 
   
@@ -386,8 +386,7 @@ label{
 
 .aboutme__section__image {
   width:100%;
-  margin-top:2em;
-  padding-bottom:1em;
+  padding-top:1em;
   
 }
 
@@ -492,9 +491,7 @@ label{
 
 /*footer*/
 footer {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
+  border:solid 2px red;
   height: 150px;
   background-color:#8DB580;
 }
@@ -502,12 +499,17 @@ justify-content: space-evenly;
 
 
 .social-networks {
+  display: flex;
+  border: solid 1px orange;
    align-items: center;
+   justify-content: space-evenly;
 
 }
 
 .social-networks > li {
+  border:solid 2px black;
     display: inline;
+
 }
 
 .social-networks i {
