@@ -1,3 +1,4 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap'); 
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -221,9 +222,11 @@ header {
 
 
 .logo {
+  font-family: 'Playfair Display', sans serif;
+  font-weight: 300;
   align-items:center;
   font-size:2rem;
-  height: 30px;
+  height: 3rem;
   color:#fff;
   text-decoration:none;
 }
@@ -480,6 +483,7 @@ label{
 .sidebar {
   background-color:#DDD1C7;
   color:black;
+  padding:1rem;
 }
 
 .sidebar i{
@@ -488,12 +492,17 @@ label{
 
 /*footer*/
 footer {
-    height: 150px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+  height: 150px;
   background-color:#8DB580;
 }
 
+
+
 .social-networks {
-    text-align: center;
+   align-items: center;
 
 }
 
