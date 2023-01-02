@@ -574,6 +574,7 @@ footer {
 
 .service-title {
   padding-top: 1em;
+  margin-left: .75em;
   
 }
 
@@ -582,3 +583,22 @@ footer {
   font-weight: 300;
 }
   
+@media (min-width:800px){
+  .services{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  }
+
+  .img-container {
+    padding-top: 2.5em;
+    width:40%;
+    align-items: center;
+  }
+  .text-container {
+    width:55%;
+  }
+
+  .service-title {
+    text-align: center;
+}
