@@ -523,7 +523,6 @@ border-bottom: #072A2D 1px ;
   letter-spacing: 3px;
 }
  .sidebar p{
-  border: solid 1px red;
   font-family: 'Work Sans', sans-serif;
   font-style: italic;
  }
@@ -538,7 +537,6 @@ border-bottom: #072A2D 1px ;
 
 /*footer*/
 footer {
-  border:solid 2px red;
   height: 150px;
   background-color:#8DB580;
 }
@@ -547,14 +545,12 @@ footer {
 
 .social-networks {
   display: flex;
-  border: solid 1px orange;
    align-items: center;
    justify-content: space-evenly;
 
 }
 
 .social-networks > li {
-  border:solid 2px black;
     display: inline;
 
 }
