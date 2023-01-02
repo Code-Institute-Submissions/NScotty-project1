@@ -160,6 +160,7 @@ header {
         visibility: visible;
         display: flex;
        justify-content: flex-end;
+       align-items: center;
         height: auto;
     }
   
@@ -472,9 +473,7 @@ label{
     opacity: .75; 
         }
         
-        /*******************************
-                Media Queries
-        *******************************/
+       /* Form media queries*/
           @media (min-width: 500px){
            
             .form-box label{
@@ -502,7 +501,7 @@ label{
                 margin-left: 9rem;
             }
         }
-
+/* Contact details */
 .sidebar {
   background-color:#DDD1C7;
   color:black;
@@ -574,24 +573,37 @@ footer {
 
 .service-title {
   padding-top: 1em;
-  margin-left: .75em;
-  
+  text-align: center;
 }
 
 .service-list {
   font-family: 'work-sans',sans-serif;
   font-weight: 300;
 }
+
+#services-paragraph{
+  padding: 3em 1em;
+  font-family: 'work-sans',sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Media Queries for Services page for larger screens*/
   
 @media (min-width:800px){
-  .services{
+  .services {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-between;
   }
-
+.service-title{
+  font-family: 'Forum';
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
   .img-container {
-    padding-top: 2.5em;
     width:40%;
     align-items: center;
   }
@@ -599,6 +611,5 @@ footer {
     width:55%;
   }
 
-  .service-title {
-    text-align: center;
+  
 }
