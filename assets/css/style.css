@@ -127,7 +127,7 @@ header {
 } 
 
 .nav__list{
-  margin:1;
+  margin:1em;
   padding: 0;
   list-style: none;
   font-size: 1rem;
@@ -413,7 +413,8 @@ label{
 }
 
 .aboutme__section__title {
- margin-top:1em;
+ font-family: 'Forum';
+ padding: 1em;
    
   }
 
@@ -509,8 +510,8 @@ label{
 }
 
 .contact__title {
-font-family: 'Forum'cursive;
-font-weight: 500 bold;
+font-family: 'Forum',cursive;
+font-weight: bold;
 letter-spacing: 4px;
 border-bottom: #072A2D 1px ;
 
@@ -518,7 +519,7 @@ border-bottom: #072A2D 1px ;
 
 .sidebar-title {
 
-  font-family: 'Forum' cursive;
+  font-family: 'Forum', cursive;
   font-weight: bold;
   letter-spacing: 3px;
 }
@@ -565,6 +566,19 @@ footer {
     margin:1%;
     color: black;
 }
+/*Services page styling*/
+.myservices-img {
+  padding-top: 3.5em;
+  width:100%
+}
 
+.service-title {
+  padding-top: 1em;
+  
+}
 
+.service-list {
+  font-family: 'work-sans',sans-serif;
+  font-weight: 300;
+}
   
