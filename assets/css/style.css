@@ -283,7 +283,7 @@ header {
     height: 600px;
     width: 100%;
 
-    background: url('/images/hero-imageproject1.jpg') no-repeat center center;
+    background: url('assets/images/hero-imageproject1.jpg') no-repeat center center;
     background-size: cover;
     background-position: 10% 30%;
 
