@@ -54,7 +54,7 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
   * It is fully responsive and when cliked each link opens in a new window allowing the user to easily navigate back to the webpage.
 
 
-  ![image of footer](/images/footer.PNG)
+  ![image of footer](assets/images/footer.PNG)
 
 
 ## Features left to implement
@@ -67,16 +67,18 @@ A feature I would like to implement is a booking system allowing users to see a 
 
 The code was passed through the W3C Markup Validator and returned no errors
 
-![image of W3C HTML Validation](/images/HTML%20Validation%20Index%20page.PNG)
+![image of W3C HTML Validation](assets/images/HTML%20Validation%20Index%20page.PNG)
 
 * CSS Validation
 
 The code was passed through the CSS Validation Service and no errors were found
 
-![image of CSS Validation message](/images/css%20validation.PNG)
+![image of CSS Validation message](assets/images/css%20validation.PNG)
 
 * Lighthouse 
 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
 Desktop Results:
+
+
