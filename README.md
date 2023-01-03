@@ -63,6 +63,8 @@ A feature I would like to implement is a booking system allowing users to see a 
 
 ## Testing
 
+
+
 * HTML Validation
 
 The code was passed through the W3C Markup Validator and returned no errors
@@ -79,6 +81,121 @@ The code was passed through the CSS Validation Service and no errors were found
 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
-Desktop Results:
+  * Desktop Results:
+
+    * Home page:
+    Desktop
+
+    ![image of home page Lighthouse report](assets/images/readmeimages/homepagedesktop.PNG)
+
+    Mobile
+
+    ![image of home page Lighthouse report](assets/images/readmeimages/homepagemobile.PNG)
+
+    * About Me page:
+
+    Desktop
+
+    ![image of about me page Lighthouse report](assets/images/readmeimages/aboutmepagedesktop.PNG)
+
+    Mobile
+
+    ![image of about me page Lighthouse report](assets/images/readmeimages/aboutmepagemobile.PNG)
+
+    * Services page
+
+    Desktop
+
+    ![image of services page Lighthouse report](assets/images/readmeimages/servicespagedesktop.PNG)
+
+    Mobile
+
+    ![image of services page Lighthouse report](assets/images/readmeimages/servicespagemobile.PNG)
+
+    * Contact page
+
+    Desktop
+
+    ![image of contact page Lighthouse report](assets/images/readmeimages/contactmedesktop.PNG)
+
+    Mobile
+
+    ![image of contact page Lighthouse report](assets/images/readmeimages/contactpagemobile.PNG)
+
+    The lighthouse reports for performance were affected by images being in .png and .jpg format, which is something I will consider changing in the future to overcome this performance issue.
+
+    ### Further Testing
+
+    * The project was tested on the following browsers with success, Google Chrome, Safari and Firefox.
+
+    * Project was manually tested on an iPhone 11 and an Ipad mini with success.
+
+    * I used Google Chrome Developer Tools throughout the project to test responsiveness and to debug.
+
+    * Google Chrome Tools emulated devices such as:
+
+        * Apple iPad
+        * Apple iPhone X
+        * Apple iPhone 6/7/8 Plus
+        * Apple iPhone 6/7/8
+        * Apple iPhone 5/SE
+        * Google Pixel 2/2 XL
+        * Samsung Galaxy S5
+        * Motorola G4
+        * Microsoft Surface Duo
+        * Apple iPad Pro
+
+  ## Known bugs and fixes
+
+  I dealt with many bugs while working on my project but was able to resolve most. Here are the details of what I encountered:
+  
+  * My styling was completely absent in my live website. This occured because I had implemented absolute file path in my css style sheet link.
+    I corrected this by making my file path relative.
+  * Images would not load on my live website. This occured as I had places my images folder outside of my assets folder. I corrected this but my images still would not load. Again this occured because of absolute file paths. I amended this by making all my image filepaths relative.
+
+  * My gitpod console stopped updating my commits because of work done remotely. This occured because I wrote some of my readme file within GitHub instead of within Gitpod and needed to pull the file in to update it.
+
+  ![picture of gitpod error](assets/images/readmeimages/gitproblem.PNG)
+
+
+  This was a worrying error for me as I was afraid my work would not be saved but it got resolved with help from the gitpod channel in the slack coomunity.
+
+  * Lighthouse performance score is sub optimal for my site pages. I will look at methods to amend this.
+
+  * There is a gap between my footer element and the main part of my pages which does not look good. I am working to amend this.
+
+  
+
+## Deployment
+
+### Github
+
+This project was deployed sing GitHub pages with the following process:
+
+**Deploying a GitHub repository via GitHub Pages**
+
+1. In your *Repository section*, select the Repository you wish to deploy.
+2. In the top horizontal Menu, locate and click the *Settings* link.
+3. Inside the Setting page, around halfway down locate the GitHub Pages Section.
+4. Under *Source*, select the None tab and change it to *Master* and click *Save*.
+5. Finally once the page resets scroll back down to the GitHub Pages Section to see the following message *"Your site is ready to be published at (Link to the GitHub Page Web Address)"*. It can take time for the link to open your project initially, so please don't be worried if it does not load immediately.
+
+**Forking the GitHub Repository**
+
+You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the original repository.
+
+1. Find the GitHub repository you want to fork.
+2. Click the Code button.
+3. Copy the link shown.
+4. In Gitpod, change the directory to the location you would like it to be.
+5. Type git clone, and paste the link you copied in step 3.
+6. Press Enter to have the clone created.
+
+
+
+
+
+
+
 
 
