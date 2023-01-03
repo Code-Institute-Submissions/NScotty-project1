@@ -1,11 +1,18 @@
 # Ikshana
+
+My project is my first foray into programming after 20 years. Things have really changed but I am enjoying the learning and the challenges in my goal to become a software developer. 
+
 This project is based on a life coaching service named Ikshana. Ikshana meaning: *sight, care and superintendence but also refers to eye, sight, seeing, viewing, aspect, caring for, looking after, regarding.*
 
  This life coaching service offers support and guidance in reaching personal and professional goals in particular for individuals who find themselves in a situation where a loved one is afflicted with a disability. The serrvice provides guidance, empathy, accountability and support in providing clarity and focus and achieviving goals to individuals engaging with the service.
 
+ You can find a link to the live website [here](https://nscotty.github.io/project1/).
+
+
 ## Features
 
 ### Existing Features
+
 * Navigation Bar
   * Featured on all pages of the website the reposive navigation bar allows users to easily and seamlessly navigatte to all areas of the site. 
    * Allows users to move from one page to another without having to use the back browser button 
@@ -59,7 +66,41 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
 
 ## Features left to implement
 
-A feature I would like to implement is a booking system allowing users to see a calendar of available times and dates to book an appointment. This is outside of my resources and scope for this project but is something I would like to implement in the future.
+A feature I would like to implement is a **booking system** allowing users to see a calendar of available times and dates to book an appointment. This is outside of my resources and scope for this project but is something I would like to implement in the future.
+A **blog page** is something that would also be very useful in a life coaching website and is something I would like to implement when I am further on in my learning.
+
+## Technologies Used
+
+* HTML
+  * HTML was the basic building block of this website.
+
+* CSS
+  * CSS was used to add colour, style and more structure to the site.  
+
+* Javascript
+  * A small bit of Javascript was used to create thye hamburger navigation menu.
+
+* Google Developer Tools
+    * Used to check for responsivess and to fix bugs in the site.
+
+* Font Awesome
+  * Used for social media icons.
+
+* Google Fonts
+  * Used to source styles of fonts used in the project.
+
+* Gitpod
+  * Used as the main development environment throughout the site.
+
+* GitHub
+  * Used to store code and deploy my project.
+
+* Codepen
+  * Used to practice coding
+
+* Balsamiq 
+   * Used to create wireframes for my project.                 
+
 
 ## Testing
 
@@ -190,6 +231,48 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 4. In Gitpod, change the directory to the location you would like it to be.
 5. Type git clone, and paste the link you copied in step 3.
 6. Press Enter to have the clone created.
+
+## Credits
+
+### Code
+
+* **Kevin Powell** for learning about CSS and Flexbox and hamburger navigation bar
+
+  * Source [Kevin Powell](https://www.youtube.com/@KevinPowell)
+
+* **Study Web Today** channel on youtube helped me create the readmore button on my ***About Me*** pages
+
+* Source [Study Web Today](https://www.youtube.com/watch?v=2XJ-HKN9DAo&list=PLzg2IM5UwI_2Z04ds3jEpAAN3mBWay-RW&index=15)  
+
+* **Steve Griffith** helped in creating responsive form on my Contact page
+
+  * Source [Steve Griffith](https://www.youtube.com/@SteveGriffith-Prof3ssorSt3v3)
+
+* Code Institute Slack Team for helping me out when pieces of code werent working
+
+## Content
+
+* I got the information for the site from Caroline Lawless life coach .
+
+* I used [Coolor](https://coolors.co/) for the colour palette.
+
+## Media
+
+* I used [Unsplash](https://unsplash.com/) for the images for the webpage
+
+* [Font Awesome](https://fontawesome.com/kits/b8dbacb959/use) wasa used for social media icons
+
+* I found all of my fonts on [Google Fonts](https://fonts.google.com/)
+
+
+
+
+
+
+  
+
+
+
 
 
 
