@@ -164,13 +164,14 @@ A **blog page** is something that would also be very useful in a life coaching w
 
 The code was passed through the W3C Markup Validator and returned no errors
 
-![image of W3C HTML Validation](assets/images/HTML%20Validation%20Index%20page.PNG)
+![image of W3C HTML Validation](assets/images/htmlcheck.PNG)
 
 * CSS Validation
 
 The code was passed through the CSS Validation Service and no errors were found
 
-![image of CSS Validation message](assets/images/css%20validation.PNG)
+![image of CSS Validation message](assets/images/csshtmlvalidation.PNG)
+
 
 * Manual Testing
 
