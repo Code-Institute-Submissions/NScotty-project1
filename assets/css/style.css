@@ -436,7 +436,7 @@ label{
 /* Form */
    
 
-form {
+.form {
   padding-top: 1rem;
   background-color: #DDD1C7;
   color: black;
@@ -518,6 +518,7 @@ font-family: 'Forum',cursive;
 font-weight: bold;
 letter-spacing: 4px;
 border-bottom: #072A2D 1px ;
+text-align: center;
 
 }
 
