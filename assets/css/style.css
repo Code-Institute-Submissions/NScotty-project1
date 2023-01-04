@@ -8,6 +8,9 @@ body {
     margin: 0;
     font-size: 1.3rem;
     font-family: 'Work Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /*img {
@@ -195,6 +198,9 @@ header {
     .row {
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        flex: 1 0 auto;
 
     }
   .row2{
@@ -430,11 +436,10 @@ label{
 /* Form */
    
 
-.form {
-  
- background-color:#DDD1C7;
- color:black;
-  
+form {
+  padding-top: 1rem;
+  background-color: #DDD1C7;
+  color: black;
 }
 
            input, label, button{
@@ -558,7 +563,7 @@ footer {
 .social-networks i {
     font-size: 160%;
     padding: 5%;
-    margin:1%;
+   /* margin:1%;*/
     color: black;
 }
 /*Services page styling*/
