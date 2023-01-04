@@ -172,6 +172,10 @@ The code was passed through the CSS Validation Service and no errors were found
 
 ![image of CSS Validation message](assets/images/css%20validation.PNG)
 
+* Manual Testing
+
+  * Each page feature was tested individually and the results can be seen ![here](assets/images/Manual%20testing%20readme.pdf)
+
 * Lighthouse 
 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
