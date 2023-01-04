@@ -1,6 +1,12 @@
 # Ikshana
 
+![am i responsive site image](assets/images/readmeimages/amiresponsive.PNG)
+
+
+
 My project is my first foray into programming after 20 years. Things have really changed but I am enjoying the learning and the challenges in my goal to become a software developer. 
+
+I have found learning CSS extremely intersting and rewarding. I know i have just scratched the surface of its capabilities but I have done my best with my fledgling knowledge to build this website.
 
 This project is based on a life coaching service named Ikshana. Ikshana meaning: *sight, care and superintendence but also refers to eye, sight, seeing, viewing, aspect, caring for, looking after, regarding.*
 
@@ -62,6 +68,54 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
 
 
   ![image of footer](assets/images/footer.PNG)
+
+  * Contact Page
+
+    * The contact page features a fully responsive form. The form at full screen shows the form labels to the left of the input fields
+
+
+    ![form at full screen](assets/images/formover600px.PNG)
+
+
+
+    * Between 500 - 600px the form labels appear above the input boxes saving space without compromising the form:
+
+
+    ![form at 500 - 600px](assets/images/readmeimages/formover500px.PNG)
+
+
+
+    * When screen sizes go below 500px the form labels disappear altogether and the user is guided by the input box placeholder instead. This saves space on the smallest screens while still guiding the user.
+
+
+
+    ![form at 500px and under](assets/images/readmeimages/formsmallscreen.PNG)
+
+
+  * Contact sidebar
+
+   * The contact sidebar contains contact details for the life coach. It appears under the form in screens under 800px:
+
+    ![contact page under 800px](assets/images/readmeimages/contactmepage.PNG)
+
+
+
+   * At screens larger than 800px the contact page appears to the right of the contact form:
+
+
+    ![contact page under 800px](assets/images/readmeimages/formfullsize.PNG)
+
+
+    ## Design 
+
+    * Colours
+
+      * For this project I chose an earthy contrasting colour scheme which i felt complemented the theme and added visual appeal for the user without distracting from the content. 
+
+      * I used the coolor website to find my colour scheme.
+
+      ![colour scheme](assets/images/readmeimages/colourscheme.PNG)
+
 
 
 ## Features left to implement
@@ -203,7 +257,7 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
   * Lighthouse performance score is sub optimal for my site pages. I will look at methods to amend this.
 
-  * There is a gap between my footer element and the main part of my pages which does not look good. I am working to amend this.
+  * There was a gap between my footer element and the main part of my pages which does not look good. I amended this by changing the vh to minimum 100vh in the body.
 
   
 

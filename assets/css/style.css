@@ -3,7 +3,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
-
+/* Body section */
 body {
     margin: 0;
     font-size: 1.3rem;
@@ -12,36 +12,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-/*img {
-    max-width: 100%;
-}
-
-h1 {
-    font-size: 3rem;
-      margin-top: 0;
-}
-
-.section-title {
-    color: #87629A;
-}
-
-.btn {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase; 
-    color: #23424A;
-    font-weight: 900;
-    background-color: #38CFD9;
-    padding: .75em 2em;
-    border-radius: 100px;
-}
-
-.btn:hover,
-.btn:focus {
-    opacity: .75; 
-}*/
-
 
 .container {
     width: 80%;
@@ -62,8 +32,6 @@ header {
     width: 100%;
 }
 
-
-
 .nav-toggle {
     cursor: pointer;
     border: 0;
@@ -74,7 +42,6 @@ header {
     background: #072A2D;
     color: white;
     transition: opacity 250ms ease;
-    
     position: absolute;
     left: 0;
 }
@@ -116,7 +83,6 @@ header {
     transform: translateY(3px);
 }
 
-
 .nav {
     visibility: hidden;
     height: 0;
@@ -154,7 +120,6 @@ header {
 /*Media Queries to display navigation menu on screens larger than 800px*/
 @media (min-width: 800px) {
 
-    
     .nav-toggle {
         display: none;
     }
@@ -186,9 +151,7 @@ header {
   
   .nav__item {
     list-style:none;
-    color:#ffff;
-   
-    
+    color:#ffff; 
   }
   
   .nav__link:hover {
@@ -201,14 +164,13 @@ header {
         flex-direction: row;
         width: 100%;
         flex: 1 0 auto;
-
     }
+
   .row2{
   display:flex;
   flex-direction: row-reverse;
   justify-content:space-between;
 }
-
   .form{
     width:62%;
     text-align:center;
@@ -222,13 +184,7 @@ header {
         width: 80%;
     ;
     }
-
-  
-    
-
-
 }
-
 
 .logo {
   font-family: 'Yeon Sung', cursive;
@@ -251,10 +207,20 @@ header {
     position: relative;
 }
 
+/* Cover text heading */
 #cover-text, #cover-text h2 {
   color: black;
+  font-family: 'Forum',cursive;
+  text-transform: uppercase;
   
 }
+
+/* Cover text subheading */
+#cover-text, #cover-text h3 {
+  color: black;
+  font-family: 'work-sans', sans-serif;
+  text-transform: none;
+  }
 
 #hero-image {
     height: 600px;
@@ -263,8 +229,6 @@ header {
     background: url('../images/hero-imageproject1.jpg') no-repeat center center;
     background-size: cover;
     background-position: 20% 45%;
-
-
 
     /* animates zoom effect on loading the page */
     animation-name: hero-zoom;
@@ -292,28 +256,23 @@ header {
     background: url('../images/hero-imageproject1.jpg') no-repeat center center;
     background-size: cover;
     background-position: 10% 30%;
-
 }
 
 }
+
+/*Page cover text*/
 
 #cover-text{
   font-size: 1rem;
   font-family: Forum, sans-serif;
-  text-transform: uppercase;
   letter-spacing: 4px;
-  
   width: 18.75em;
   height: 14em;
-  
   padding-top: 2.5em;
   padding-left: .7em;
-  
   background-color: rgba(252, 255, 254, 0.63);
-  
   bottom: 3em;
   right: 10em;
-  
   position: absolute;
   
 }
@@ -326,26 +285,18 @@ header {
   }
 }
 
-
-
-
-
-
+/*Start of aboutme section*/
 .aboutme{
   color: black;
   background-color: #8DB580;
  }
 
-
-
-h1,h2 {
+ h2 {
   font-family:'Forum',cursive;
   margin-top: 0;
   font-weight:900;
   letter-spacing: 3px;
 }
-
-
 
 .aboutme__section__text {
   width:100%;
@@ -401,7 +352,6 @@ label{
   visibility: hidden;
 }
 
-
 #check:checked ~ label::after{
   content:'Show Less';
   display: block;
@@ -416,7 +366,6 @@ label{
 .aboutme__section__image {
   width:100%;
   padding-top:1em;
-  
 }
 
 .aboutme__section__title {
@@ -425,17 +374,13 @@ label{
    
   }
 
-
 .myapproach {
   background-color:#4B4A67;
   color:white;
 }
 
-
-
 /* Form */
    
-
 .form {
   padding-top: 1rem;
   background-color: #DDD1C7;
@@ -506,6 +451,7 @@ label{
                 margin-left: 9rem;
             }
         }
+
 /* Contact details */
 .sidebar {
   background-color:#DDD1C7;
@@ -537,8 +483,7 @@ text-align: center;
 
 .sidebar i{
   padding:.5rem;
-  font-weight: bolder;
-  
+  font-weight: bolder; 
 }
 
 /*footer*/
@@ -547,24 +492,18 @@ footer {
   background-color:#8DB580;
 }
 
-
-
 .social-networks {
   display: flex;
    align-items: center;
    justify-content: space-evenly;
-
 }
 
 .social-networks > li {
     display: inline;
-
 }
-
 .social-networks i {
     font-size: 160%;
     padding: 5%;
-   /* margin:1%;*/
     color: black;
 }
 /*Services page styling*/
@@ -598,6 +537,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   }
+
 .service-title{
   font-family: 'Forum';
   text-decoration: underline;
@@ -605,13 +545,14 @@ footer {
   padding-top: 2em;
   padding-bottom: 1em;
 }
+
   .img-container {
     width:40%;
     align-items: center;
   }
+
   .text-container {
     width:55%;
   }
-
   
 }
