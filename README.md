@@ -8,9 +8,9 @@ My project is my first foray into programming after 20 years. Things have really
 
 I have found learning CSS extremely intersting and rewarding. I know i have just scratched the surface of its capabilities but I have done my best with my fledgling knowledge to build this website.
 
-This project is based on a life coaching service named Ikshana. Ikshana meaning: *sight, care and superintendence but also refers to eye, sight, seeing, viewing, aspect, caring for, looking after, regarding.*
+This project is based on a life coaching service named ***Ikshana***. Ikshana meaning: *sight, care and superintendence but also refers to eye, sight, seeing, viewing, aspect, caring for, looking after, regarding.*
 
- This life coaching service offers support and guidance in reaching personal and professional goals in particular for individuals who find themselves in a situation where a loved one is afflicted with a disability. The serrvice provides guidance, empathy, accountability and support in providing clarity and focus and achieviving goals to individuals engaging with the service.
+ This life coaching service offers support and guidance in reaching personal and professional goals, in particular for individuals who find themselves in a situation where a loved one is afflicted with a disability. The service provides guidance, empathy, accountability and support in providing clarity, focus and goal setting to individuals engaging with the service.
 
  You can find a link to the live website [here](https://nscotty.github.io/project1/).
 
@@ -19,7 +19,7 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
 
 ### Existing Features
 
-* Navigation Bar
+* **Navigation Bar**
   * Featured on all pages of the website the reposive navigation bar allows users to easily and seamlessly navigatte to all areas of the site. 
    * Allows users to move from one page to another without having to use the back browser button 
    
@@ -28,22 +28,28 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
   
   ![Navbar small screen](https://user-images.githubusercontent.com/116117302/210172881-529bd679-d17b-4d40-95fb-dc6a801c3dc5.PNG)
   
- * Landing Page
-    * The landing page is an image of a person sitting on a hill in front of beautiful scneney and a winding path below. I really like this image as it can be perceived either as resting and admiring the end of a journey or contemplating the start of an exciting adventure. I wanted the image to be ignite users imaginations and inspire them that life coaching and self exploration can be an exciting, rewarding adventure as well as a challenge ans accomplishment.
-    * The landing page also has zoom animation which further lends the page appeal to capture the users interest.
+ * **Landing Page**
+    * The landing page is an image of a person sitting on a hill in front of beautiful scneney and a winding path below. I really like this image as it can be perceived either as resting and admiring the end of a journey or contemplating the start of an exciting adventure. I wanted the image to ignite users' imaginations and inspire them that life coaching and self exploration can be an exciting, rewarding adventure as well as a challenge ans accomplishment.
+
+    * The landing page also has ***zoom animation*** which further lends the page appeal to capture the users interest.
+
+
  <p align = "center">
 <img src="https://user-images.githubusercontent.com/116117302/210173427-06fe660b-ac9f-42ce-98b4-5e9cf02e0e08.PNG">
 </P>
 
-* About Me page
-  * The about me page talks about Carolines background and her journey to becoming a life coach. it features a picture of Caroline and a description of who she is 
+* **About Me page**
+  * The about me page talks about Carolines background and her journey to becoming a life coach. it features a picture of Caroline and a description of who she is.
+
   * A **read more** link was introduced on this page as there is a lot of text and this method allows the user to read more or less as they wish.
   
 ![aboutme](https://user-images.githubusercontent.com/116117302/210176582-8afeb279-5c1c-429f-8d6f-d9082c7b17ca.PNG)
 ![aboutme less](https://user-images.githubusercontent.com/116117302/210176586-69a4d039-c2b1-45ce-9736-29c1ffcce5cd.PNG)
 
-* Services Page
+* **Services Page**
+
   * On this page we describe the services provided with Ikshana coaching.
+
   * Images relevant to the contant were used to reflect the services provided and help to engage the user.
 
   ![image of services page larger screens](assets/images/readmeimages/serviceslrgscreen.PNG)
@@ -54,21 +60,7 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
   * Text and images are displayed in column format on smaller screens and side by side on larger screens.
 
 
-* Work With Me page
-
-
-  * This page is designed to make it easy for the user to get in touch. On smaller screens the contact form takes the wisth of the page whereas on larger screens flex was used to stack the contact me section alongside the form.
-
-
-  * The form is fully validated and the user must enter the correct details for the form.
-  
-  <p float= "left">
- <img height="277" width="235" src="https://user-images.githubusercontent.com/116117302/210178144-836b48e9-01e9-41bb-a636-b1338de216a9.PNG"/>
- <img height="277" width="235" src="https://user-images.githubusercontent.com/116117302/210177993-d3344c97-5ce5-4ae1-be1f-f6398287c27e.PNG"/>
- <img  height="277" width="235"src="https://user-images.githubusercontent.com/116117302/210177995-14e0a27f-1a54-44ac-b9a5-f06a2dc26332.PNG"/>
-</p>
-
-* Footer
+* **Footer**
 
 
   * The footer element is designed to provide easy navigation to the social networks of Ikshana coaching for the user. 
@@ -79,7 +71,7 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
 
   ![image of footer](assets/images/footer.PNG)
 
-  * Contact Page
+  * **Contact Page**
 
 
     * The contact page features a fully responsive form. The form at full screen shows the form labels to the left of the input fields
@@ -103,7 +95,7 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
     ![form at 500px and under](assets/images/readmeimages/formsmallscreen.PNG)
 
 
-  * Contact sidebar
+  * **Contact sidebar**
 
 
    * The contact sidebar contains contact details for the life coach. It appears under the form in screens under 800px:
@@ -123,7 +115,8 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
 
     * Initially when I started the project I did not understand mobile first design and based my design from desktop first. My ![wireframe](assets/images/readmeimages/Website%20structure%20mockup%20ikshana.pdf) reflects this. However I did not depart too much from the original design and managed to keep most of the original structure albeit modifying slightly to also suit mobile first development.
 
-    * Colours
+
+    * **Colours**
 
       * For this project I chose an earthy contrasting colour scheme which i felt complemented the theme and added visual appeal for the user without distracting from the content. 
 
@@ -131,7 +124,7 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
 
       ![colour scheme](assets/images/readmeimages/colourscheme.PNG)
 
-    * Fonts 
+    * **Fonts** 
 
       * For this project I used the fonts **Work Sans** and **Forum**
 
@@ -146,65 +139,65 @@ A **blog page** is something that would also be very useful in a life coaching w
 
 ## Technologies Used
 
-* HTML
+* **HTML**
   * HTML was the basic building block of this website.
 
-* CSS
+* **CSS**
   * CSS was used to add colour, style and more structure to the site.  
 
-* Javascript
+* **Javascript**
   * A small bit of Javascript was used to create thye hamburger navigation menu.
 
-* Google Developer Tools
+* **Google Developer Tools**
     * Used to check for responsivess and to fix bugs in the site.
 
-* Font Awesome
+* **Font Awesome**
   * Used for social media icons.
 
-* Google Fonts
+* **Google Fonts**
   * Used to source styles of fonts used in the project.
 
-* Gitpod
+* **Gitpod**
   * Used as the main development environment throughout the site.
 
-* GitHub
+* **GitHub**
   * Used to store code and deploy my project.
 
-* Codepen
+* **Codepen**
   * Used to practice coding
 
-* Balsamiq 
+* **Balsamiq** 
    * Used to create wireframes for my project.                 
 
 
 ## Testing
 
 
-
-* HTML Validation
+* **HTML Validation**
 
 The code was passed through the W3C Markup Validator and returned no errors
 
 ![image of W3C HTML Validation](assets/images/htmlcheck.PNG)
 
-* CSS Validation
+* **CSS Validation**
 
 The code was passed through the CSS Validation Service and no errors were found
 
 ![image of CSS Validation message](assets/images/csshtmlvalidation.PNG)
 
 
-* Manual Testing
+* **Manual Testing**
 
   * Each page feature was tested individually and the results can be seen ![here](assets/images/Manual%20testing%20readme.pdf)
 
-* Lighthouse 
+* **Lighthouse** 
 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
-  * Desktop Results:
+  * **Desktop Results**:
 
-    * Home page:
+    * **Home page:**
+
     Desktop
 
     ![image of home page Lighthouse report](assets/images/readmeimages/homepagedesktop.PNG)
@@ -213,7 +206,7 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
     ![image of home page Lighthouse report](assets/images/readmeimages/homepagemobile.PNG)
 
-    * About Me page:
+    * **About Me page:**
 
     Desktop
 
@@ -223,7 +216,7 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
     ![image of about me page Lighthouse report](assets/images/readmeimages/aboutmepagemobile.PNG)
 
-    * Services page
+    * **Services page**
 
     Desktop
 
@@ -233,7 +226,7 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
     ![image of services page Lighthouse report](assets/images/readmeimages/servicespagemobile.PNG)
 
-    * Contact page
+    * **Contact page**
 
     Desktop
 
@@ -301,11 +294,11 @@ This project was deployed sing GitHub pages with the following process:
 4. Under *Source*, select the None tab and change it to *Master* and click *Save*.
 5. Finally once the page resets scroll back down to the GitHub Pages Section to see the following message *"Your site is ready to be published at (Link to the GitHub Page Web Address)"*. It can take time for the link to open your project initially, so please don't be worried if it does not load immediately.
 
-**Forking the GitHub Repository**
+**Cloning the GitHub Repository**
 
 You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the original repository.
 
-1. Find the GitHub repository you want to fork.
+1. Find the GitHub repository you want to Clone.
 2. Click the Code button.
 3. Copy the link shown.
 4. In Gitpod, change the directory to the location you would like it to be.
