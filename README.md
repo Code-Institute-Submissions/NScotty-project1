@@ -128,7 +128,9 @@ This project is based on a life coaching service named ***Ikshana***. Ikshana me
 
       * For this project I used the fonts **Work Sans** and **Forum**
 
-      * I chose these fonts as I felt they reflect creativity and lend themselves well to the site theme.  
+      * I chose these fonts as I felt they reflect creativity, are easy to read,  and lend themselves well to the site theme.  
+
+      * For the Logo I chose ***Yeon Sung*** font as it offers good contrast to the rest of the text and allows the logo to stand out.
 
 
 
@@ -279,7 +281,6 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
   * There was a gap between my footer element and the main part of my pages which does not look good. I amended this by changing the vh to minimum 100vh in the body.
 
   
-
 ## Deployment
 
 ### Github
