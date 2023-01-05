@@ -46,14 +46,20 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
   * On this page we describe the services provided with Ikshana coaching.
   * Images relevant to the contant were used to reflect the services provided and help to engage the user.
 
-  <img src="../images/servicessmallscreen.png"/>
-  <img src="/images/servicessmallscreen.png">
+  ![image of services page larger screens](assets/images/readmeimages/serviceslrgscreen.PNG)
+
+
+  ![Iamge of services page smaller screens](assets/images/readmeimages/servicessmlscreen.PNG)
 
   * Text and images are displayed in column format on smaller screens and side by side on larger screens.
 
 
 * Work With Me page
+
+
   * This page is designed to make it easy for the user to get in touch. On smaller screens the contact form takes the wisth of the page whereas on larger screens flex was used to stack the contact me section alongside the form.
+
+
   * The form is fully validated and the user must enter the correct details for the form.
   
   <p float= "left">
@@ -63,13 +69,18 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
 </p>
 
 * Footer
+
+
   * The footer element is designed to provide easy navigation to the social networks of Ikshana coaching for the user. 
+
+
   * It is fully responsive and when cliked each link opens in a new window allowing the user to easily navigate back to the webpage.
 
 
   ![image of footer](assets/images/footer.PNG)
 
   * Contact Page
+
 
     * The contact page features a fully responsive form. The form at full screen shows the form labels to the left of the input fields
 
@@ -94,7 +105,9 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
 
   * Contact sidebar
 
+
    * The contact sidebar contains contact details for the life coach. It appears under the form in screens under 800px:
+
 
     ![contact page under 800px](assets/images/readmeimages/contactmepage.PNG)
 
@@ -108,6 +121,8 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
 
     ## Design 
 
+    * Initially when I started the project I did not understand mobile first design and based my design from desktop first. My ![wireframe](assets/images/readmeimages/Website%20structure%20mockup%20ikshana.pdf) reflects this. However I did not depart too much from the original design and managed to keep most of the original structure albeit modifying slightly to also suit mobile first development.
+
     * Colours
 
       * For this project I chose an earthy contrasting colour scheme which i felt complemented the theme and added visual appeal for the user without distracting from the content. 
@@ -115,6 +130,12 @@ This project is based on a life coaching service named Ikshana. Ikshana meaning:
       * I used the coolor website to find my colour scheme.
 
       ![colour scheme](assets/images/readmeimages/colourscheme.PNG)
+
+    * Fonts 
+
+      * For this project I used the fonts **Work Sans** and **Forum**
+
+      * I chose these fonts as I felt they reflect creativity and lend themselves well to the site theme.  
 
 
 
@@ -307,7 +328,7 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 
   * Source [Steve Griffith](https://www.youtube.com/@SteveGriffith-Prof3ssorSt3v3)
 
-* Code Institute Slack Team for helping me out when pieces of code werent working
+* Code Institute Slack Team for helping me out when pieces of code werent working and for feedback. Also my mentor **Harry Dhillon** who kepf me on track and encouraged me when I found things tough.
 
 ## Content
 
@@ -322,6 +343,10 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 * [Font Awesome](https://fontawesome.com/kits/b8dbacb959/use) wasa used for social media icons
 
 * I found all of my fonts on [Google Fonts](https://fonts.google.com/)
+
+## Summary
+
+Overall I am very pleased with my project and feel I have learned a huge amount in a short time. I can learn from my mistakes and use it to build better projects for the future. 
 
 
 
